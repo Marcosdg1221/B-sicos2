@@ -23,5 +23,6 @@ public class Basicos2ej5 {
 		System.out.print("Tu media en el boletín es " + media1);
 		System.out.print(" Y tu media en el expediente es " +media2);
 		}
-	all.close();
+		//cerramos el scanner
+		all.close();
 }
