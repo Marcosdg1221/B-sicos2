@@ -6,8 +6,9 @@ public class Basicos2ej5 {
 	public static void main(String[] args) {
 		//Doy el scanner 
 		Scanner all = new Scanner(System.in);
-		//Creo las notas y las medias:
-		double a, b, c, media2;
+		//Creo las variables
+		final int a, b, c;
+		double media2;
 		int media1;
 		//Lo que escriba el usuario en las siguientes preguntas serán las notas.
 		System.out.print("¿Cuanta nota sacaste en el primer trimestre?");
